@@ -1,5 +1,7 @@
 var express = require('express');
 var app = express();
+var fs = require('fs');
+buf = new buffer(256);
 var file = fs.readFileSync(index.html);
 var text = buf.toString(file);
 
